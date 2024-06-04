@@ -1,0 +1,35 @@
+[
+  {
+    "label": "Home",
+    "icon": "home",
+    "path": "/",
+    "submenus": [
+      {
+        "label": "Account",
+        "path": "/acc/det",
+        "icon": "fa-users"
+      }
+    ]
+  },
+
+  {
+    "label": "Transaction",
+    "icon": "fa-comments-dollar",
+    "path": "/trans",
+    "submenus": [
+      {
+        "label": "Send",
+        "path": "/trans/send",
+        "icon": "fa-paper-plane"
+      },
+      {
+
+        "label": "History",
+        "path": "/trans/hist",
+        "icon": "fa-clock-rotate-left"
+
+
+      }
+    ]
+  }
+]
